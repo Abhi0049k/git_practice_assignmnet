@@ -1,11 +1,11 @@
 let st = 'racecar';
-let s = 0;
-let e = st.length;
+let start = 0;
+let end = st.length;
 let flag = true;
-while(s<=e){
-    if(st[s]===st[e]){
-        s++;
-        e--;
+while(start<=end){
+    if(st[start]===st[end]){
+        start++;
+        end--;
     }
     else{
         flag = false;
